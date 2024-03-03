@@ -1,51 +1,28 @@
+# Destini
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+## Introduction
 
-#  Destini
+Destini is an interactive story-based iOS application that immerses users in a thrilling narrative adventure. With its captivating storyline and user-friendly interface, Destini offers an engaging experience for users to make life-altering decisions and uncover multiple story paths.
 
-## Our Goal
+## Screenshots
+<img src="https://github.com/kri-eng/Destini-App/assets/124129235/8d3e2c5d-e6fe-4622-9337-670721846dc4" alt="Xylophone-Screenshot" width=300>
 
-The goal of this challenge is to get you comfortable with implementing the MVC design pattern and thinking about the state of your app. In addition, you will be reviewing the concept of Swift Structures and using it to separate the Model from the Controller. 
+<img src="https://github.com/kri-eng/Destini-App/assets/124129235/454795e6-6362-42b1-931d-bbf4077f6cca" alt="Xylophone-Screenshot" width=300>
 
-## What you will create
+<img src="https://github.com/kri-eng/Destini-App/assets/124129235/d9e83024-5c08-4be0-b217-c32dc27a96c2" alt="Xylophone-Screenshot" width=300>
 
-In this app, you will be creating a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience
+## User Interface
 
+The user interface of Destini comprises the following elements:
 
-## Story Strings
-```
-        Story(
-            title: "Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: 'Need a ride, boy?'.",
-            choice1: "I'll hop in. Thanks for the help!", choice1Destination: 2,
-            choice2: "Better ask him if he's a murderer first.", choice2Destination: 1
-        ),
-        Story(
-            title: "He nods slowly, unfazed by the question.",
-            choice1: "At least he's honest. I'll climb in.", choice1Destination: 2,
-            choice2: "Wait, I know how to change a tire.", choice2Destination: 3
-        ),
-        Story(
-            title: "As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.",
-            choice1: "I love Elton John! Hand him the cassette tape.", choice1Destination: 5,
-            choice2: "It's him or me! You take the knife and stab him.", choice2Destination: 4
-        ),
-        Story(
-            title: "What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?",
-            choice1: "The", choice1Destination: 0,
-            choice2: "End", choice2Destination: 0
-        ),
-        Story(
-            title: "As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.",
-            choice1: "The", choice1Destination: 0,
-            choice2: "End", choice2Destination: 0
-        ),
-        Story(
-            title: "You bond with the murderer while crooning verses of 'Can you feel the love tonight'. He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: 'Try the pier.'",
-            choice1: "The", choice1Destination: 0,
-            choice2: "End", choice2Destination: 0
-        )      
-```
+- **Main Label:** Displays the ongoing story to the user.
+- **UIButtons:** Two buttons presenting text choices for users to make decisions.
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+## Functionality
 
-![End Banner](Documentation/readme-end-banner.png)
+Destini operates as a branching story game, where each decision leads to a different narrative path. Key functionalities include:
+
+- **Interactive Storytelling:** Users engage with the story presented in the main label and make decisions through button selections.
+- **Dynamic Story Progression:** The application updates the storyline based on user choices, leading to different outcomes and branching narratives.
+- **Data Management:** Structs are utilized to store and retrieve data, ensuring continuity and coherence in the storyline.
+- **Decision-based Gameplay:** User decisions influence subsequent situations and choices, creating a unique and immersive gameplay experience.
